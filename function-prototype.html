@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		let animal = {
+			eats: true
+		};
+		function Rabbit(name) {
+			this.name = name;
+		}
+		
+    Rabbit.prototype = animal;
+    let rabbit =  new Rabbit("white Rabbit");
+    console.log(rabbit.eats); 
+
+	</script>
+</body>
+</html>
